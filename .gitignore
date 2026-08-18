@@ -1,0 +1,37 @@
+# Agent configuration and IDE skills
+.agents/
+
+# Findings and reports (per user request)
+findings/
+
+# Datasets and large binary files
+data_sift1m/
+*.zip
+*.tar.gz
+*.fbin
+*.h5
+*.hdf5
+
+# Build artifacts & compiled binaries
+build/
+cmake-build-*/
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.dylib
+*.a
+*.lib
+
+# Scratch learning scripts
+math.cpp
+math.i
+math.o
+Endbrace.h
+
+# Python cache & OS system files
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db
