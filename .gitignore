@@ -4,6 +4,9 @@
 # Findings and reports (per user request)
 findings/
 
+# Research papers and downloaded contexts
+research-context/
+
 # Datasets and large binary files
 data_sift1m/
 *.zip
