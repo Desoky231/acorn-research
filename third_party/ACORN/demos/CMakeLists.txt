@@ -112,3 +112,6 @@ target_link_libraries(bench_sift1m_labels PRIVATE faiss)
 
 add_executable(bench_selectivity_sweep EXCLUDE_FROM_ALL bench_selectivity_sweep.cpp)
 target_link_libraries(bench_selectivity_sweep PRIVATE faiss)
+
+add_executable(bench_efsearch_sweep EXCLUDE_FROM_ALL bench_efsearch_sweep.cpp)
+target_link_libraries(bench_efsearch_sweep PRIVATE faiss)
