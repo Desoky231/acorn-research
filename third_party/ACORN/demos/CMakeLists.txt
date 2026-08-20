@@ -115,3 +115,6 @@ target_link_libraries(bench_selectivity_sweep PRIVATE faiss)
 
 add_executable(bench_efsearch_sweep EXCLUDE_FROM_ALL bench_efsearch_sweep.cpp)
 target_link_libraries(bench_efsearch_sweep PRIVATE faiss)
+
+add_executable(bench_correlation_sweep EXCLUDE_FROM_ALL bench_correlation_sweep.cpp)
+target_link_libraries(bench_correlation_sweep PRIVATE faiss)
